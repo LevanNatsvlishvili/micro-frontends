@@ -1,0 +1,12 @@
+/* @import './reset'; */
+@import './base';
+@import './tailwind';
+/* @import './custom'; */
+/* @import './antd-overrides'; */
+/* @import './fonts/typography'; */
+/* @import './base/styles'; */
+/* @import './fonts/fonts'; */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -1,0 +1,66 @@
+/* Radio group outline button hover color */
+.ant-radio-button-wrapper:not(.ant-radio-button-wrapper-checked):hover {
+  border-color: #feeec1;
+}
+
+.ant-radio-wrapper > .ant-radio:not(.ant-radio-checked) > .ant-radio-inner {
+  border-color: #d9d9d9;
+}
+
+.ant-radio-checked:not(.ant-radio-disabled) > .ant-radio-inner {
+  border-color: #fabc07 !important;
+  background-color: #fffcf5 !important;
+}
+.ant-radio-checked:not(.ant-radio-disabled) > .ant-radio-inner::after {
+  background-color: #fabc07 !important;
+}
+
+/* Modal */
+.ant-modal.modal-component .ant-modal-content {
+  padding: 0 !important; /* Your desired padding */
+}
+
+.ant-modal:not(.modal-component) .ant-modal-content {
+  padding: 32px 32px 24px 32px !important; /* Your desired padding */
+}
+
+/* Datepicker */
+.ant-picker.ant-picker-focused .anticon-calendar,
+.ant-picker.ant-picker-focused .anticon-swap-right {
+  color: #fabc07 !important;
+}
+
+.ant-picker-dropdown .ant-picker-time-panel-cell {
+  /* margin-inline: 0 !important ; */
+  display: flex;
+  justify-content: center;
+}
+
+.ant-picker-dropdown .ant-picker-time-panel-cell-inner:hover {
+  background: #fffaeb !important;
+}
+
+/* Switch */
+.ant-switch:not(.ant-switch-checked) {
+  background-color: #cacccc;
+}
+
+/* Dropdown Item  */
+
+.ant-dropdown-menu-item {
+  min-height: 40px;
+}
+
+.ant-dropdown-menu-item a {
+  font-weight: 500;
+}
+
+.ant-dropdown-menu-item:hover svg,
+.ant-dropdown-menu-item:hover a {
+  color: #2b3234 !important;
+}
+
+/* Menu  */
+.ant-menu .ant-menu-item > .ant-menu-title-content {
+  font-weight: 500;
+}

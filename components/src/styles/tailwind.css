@@ -1,0 +1,30 @@
+@tailwind base;
+
+@layer base {
+  .smoothen-150 {
+    @apply transition ease-in-out duration-150;
+  }
+  .smoothen-300 {
+    @apply transition ease-in-out duration-300;
+  }
+  .smoothen-500 {
+    @apply transition ease-in-out duration-500;
+  }
+  .smoothen-1000 {
+    @apply transition ease-in-out duration-1000;
+  }
+
+  /* Centering div */
+  .center {
+    @apply flex justify-center items-center;
+  }
+  .absolute-center {
+    @apply absolute left-50-percent top-50-percent -translate-x-50 -translate-y-50;
+  }
+  .absolute-vertical-center {
+    @apply absolute top-50-percent -translate-y-50-percent;
+  }
+  .absolute-horizontal-center {
+    @apply absolute left-50-percent -translate-x-50-percent;
+  }
+}
